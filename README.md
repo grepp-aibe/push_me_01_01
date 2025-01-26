@@ -9,19 +9,19 @@
 
 ```
 problem01/
-├── problem01.js # 변수 선언 및 초기화
+├── problem01.js # 문제 1
 └── problem01.test.js # 문제 1 테스트 코드
 problem02/
-├── problem02.js # 산술 연산자
+├── problem02.js # 문제 2
 └── problem02.test.js # 문제 2 테스트 코드
 problem03/
-├── problem03.js # 비교 연산자
+├── problem03.js # 문제 3
 └── problem03.test.js # 문제 3 테스트 코드
 problem04/
-├── problem04.js # 논리 연산자 및 삼항 연산자
+├── problem04.js # 문제 4
 └── problem04.test.js # 문제 4 테스트 코드
 problem05/
-├── problem05.js # 데이터 타입 처리
+├── problem05.js # 문제 5
 └── problem05.test.js # 문제 5 테스트 코드
 ```
 
