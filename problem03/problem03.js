@@ -10,11 +10,11 @@
  */
 function compareOps(a, b) {
   return {
-    looseEqual: a === b, // 🚨
-    strictEqual: a == b, // 🚨
-    notEqual: a != b, // 🚨
-    greater: a < b, // 🚨
-    less: a > b, // 🚨
+    looseEqual: a == b, // 느슨한 동등 비교
+    strictEqual: a === b, // 엄격 동등 비교
+    notEqual: a !== b, // 엄격 부등 비교
+    greater: a > b, // a가 b보다 큰지 비교
+    less: a < b, // a가 b보다 작은지 비교
   };
 }
 module.exports = compareOps;
