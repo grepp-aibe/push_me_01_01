@@ -25,7 +25,7 @@ function inspectValues() {
     typeofB: typeof d, // 🚨
     typeofC: typeof a, // 🚨
     typeofD: "null", // 🚨
-    checkNull: b == undefined, // 🚨
+    checkNull: b === undefined, // 🚨
   };
 }
 module.exports = inspectValues;

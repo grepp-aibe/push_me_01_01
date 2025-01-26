@@ -18,8 +18,8 @@ describe("problem05", () => {
     const { typeofD } = inspectValues();
     expect(typeofD).toBe("string");
   });
-  test("checkNull => false", () => {
+  test("checkNull => true", () => {
     const { checkNull } = inspectValues();
-    expect(checkNull).toBe(false);
+    expect(checkNull).toBe(true);
   });
 });
