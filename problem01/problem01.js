@@ -16,4 +16,5 @@ function manageVariables() {
   const c = 200; // 🚨
   return { a, b, c };
 }
+
 module.exports = manageVariables;
