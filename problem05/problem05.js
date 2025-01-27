@@ -21,11 +21,11 @@ function inspectValues() {
   let d = "hello"; // string
 
   return {
-    typeofA: typeof b, // 🚨
-    typeofB: typeof d, // 🚨
-    typeofC: typeof a, // 🚨
+    typeofA: typeof a, // 🚨
+    typeofB: typeof b, // 🚨
+    typeofC: typeof c, // 🚨
     typeofD: "null", // 🚨
-    checkNull: b === undefined, // 🚨
+    checkNull: d === undefined, // 🚨
   };
 }
 module.exports = inspectValues;
