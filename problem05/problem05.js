@@ -21,7 +21,7 @@ function inspectValues() {
   let d = "hello"; // string
 
   return {
-    typeofA: typeof a, // 🚨
+    typeofA: typeof a,
     typeofB: typeof b, // 🚨
     typeofC: typeof c, // 🚨
     typeofD: typeof d, // 🚨

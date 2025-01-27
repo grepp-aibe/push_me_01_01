@@ -12,7 +12,7 @@ function manageVariables() {
   let a = 1;
   a++; // 🚨
   let b = 19;
-  b += 1; // 🚨
+  b += 1;
 
   const c = 200;
 

@@ -13,7 +13,7 @@ function calcNumbers(a, b) {
     diff: a - b, // 🚨
     product: a * b, // 🚨
     quotient: a / b, // 🚨
-    remainder: a % b, // 🚨
+    remainder: a % b,
   };
 }
 module.exports = calcNumbers;

@@ -12,7 +12,7 @@ function compareOps(a, b) {
   return {
     looseEqual: a == b, // 🚨
     strictEqual: a === b, // 🚨
-    notEqual: a !== b, // 🚨
+    notEqual: a == b, // 🚨
     greater: a > b, // 🚨
     less: a < b, // 🚨
   };
