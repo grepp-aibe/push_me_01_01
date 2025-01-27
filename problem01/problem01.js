@@ -10,13 +10,10 @@
  */
 function manageVariables() {
   // 무언가 바뀜
-  a++; // 🚨
   let a = 2;
-  b += 1; // 🚨
   let b = 10;
-  let b = 20; // 🚨
-  const c = 100;
-  c = 200; // 🚨
+  b = 20; // 🚨
+  const c = 200;
   return { a, b, c };
 }
 module.exports = manageVariables;
