@@ -14,7 +14,7 @@ function compareOps(a, b) {
     strictEqual: a === b, // 🚨
     notEqual: a == b, // 🚨
     greater: a > b, // 🚨
-    less: a < b, // 🚨
+    less: a < b,
   };
 }
 module.exports = compareOps;
