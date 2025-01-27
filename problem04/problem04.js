@@ -15,11 +15,11 @@
  */
 function logicOps(a, b) {
   return {
-    andResult: a || b, // 🚨
-    orResult: a && b, // 🚨
-    notA: a, // 🚨
-    notB: b, // 🚨
-    ternary: a && b ? a : b, // 🚨
+    andResult: a && b, // 🚨
+    orResult: a || b, // 🚨
+    notA: !a, // 🚨
+    notB: !b, // 🚨
+    ternary: a > b ? a : b, // 🚨
   };
 }
 module.exports = logicOps;
