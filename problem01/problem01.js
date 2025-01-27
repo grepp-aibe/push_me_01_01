@@ -10,11 +10,11 @@
  */
 function manageVariables() {
   a++; // 🚨
-  let a = 2;
+  var a = 2;
   b += 1; // 🚨
-  let b = 10;
-  let b = 20; // 🚨
-  const c = 100;
+  var b = 10;
+  var b = 20; // 🚨
+  let c = 100;
   c = 200; // 🚨
   return { a, b, c };
 }
