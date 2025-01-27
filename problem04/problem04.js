@@ -15,11 +15,11 @@
  */
 function logicOps(a, b) {
   return {
-    andResult: a || b, // 🚨
-    orResult: a && b, // 🚨
-    notA: a, // 🚨
-    notB: b, // 🚨
-    ternary: a && b ? a : b, // 🚨
+    andResult: a && b, // 두 조건이 모두 참일 때만 참 반환
+    orResult: a || b, // 두 조건 중 하나라도 참이면 참 반환
+    notA: !a, // `a`를 반전
+    notB: !b, // `b`를 반전
+    ternary: a ? a : b, // 삼항 연산자 수정: `a`가 참이면 `a`, 아니면 `b`
   };
 }
 module.exports = logicOps;

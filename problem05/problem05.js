@@ -21,11 +21,11 @@ function inspectValues() {
   let d = "hello"; // string
 
   return {
-    typeofA: typeof b, // 🚨
-    typeofB: typeof d, // 🚨
-    typeofC: typeof a, // 🚨
-    typeofD: "null", // 🚨
-    checkNull: b === undefined, // 🚨
+    typeofA: typeof a, // a의 타입은 undefined
+    typeofB: typeof b, // b의 타입은 object (null의 타입)
+    typeofC: typeof c, // c의 타입은 number
+    typeofD: typeof d, // d의 타입은 string
+    checkNull: b === null, // null 비교는 엄격 동등 연산자 사용
   };
 }
 module.exports = inspectValues;

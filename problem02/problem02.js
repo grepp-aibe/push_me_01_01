@@ -9,11 +9,11 @@
  */
 function calcNumbers(a, b) {
   return {
-    sum: a - b, // 🚨
-    diff: a + b, // 🚨
-    product: a / b, // 🚨
-    quotient: a * b, // 🚨
-    remainder: a ** b, // 🚨
+    sum: a + b, // 덧셈
+    diff: a - b, // 뺄셈
+    product: a * b, // 곱셈
+    quotient: a / b, // 나눗셈
+    remainder: a % b, // 나머지 연산
   };
 }
 module.exports = calcNumbers;
