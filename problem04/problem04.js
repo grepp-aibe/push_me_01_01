@@ -15,11 +15,11 @@
  */
 function logicOps(a, b) {
   return {
-    andResult: a || b, // 🚨
-    orResult: a && b, // 🚨
-    notA: a, // 🚨
-    notB: b, // 🚨
-    ternary: a && b ? a : b, // 🚨
+    andResult: a && b, // AND 연산
+    orResult: a || b, // OR 연산
+    notA: !a, // NOT 연산 (a 반전)
+    notB: !b, // NOT 연산 (b 반전)
+    ternary: a ? a : b, // 삼항 연산: a가 참이면 a, 아니면 b
   };
 }
 module.exports = logicOps;
