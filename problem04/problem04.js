@@ -19,7 +19,7 @@ function logicOps(a, b) {
     orResult: a || b, // 🚨
     notA: !a, // 🚨
     notB: !b, // 🚨
-    ternary: a ? b ? a : b, // 🚨
+    ternary: a ? a : b, // 🚨
   };
 }
 module.exports = logicOps;
