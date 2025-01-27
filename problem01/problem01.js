@@ -9,12 +9,14 @@
  * 모든 변수 선언 및 초기화가 올바르게 이루어지도록 수정해야 테스트를 통과할 수 있습니다.
  */
 function manageVariables() {
-  let a = 0; // 변수 선언
-  a++; // 올바른 접근
-  let b = 10; // 변수 선언
-  b += 1; // 연산 수행
-  const c = 100; // 변수 선언
-  // c = 200; // 🚨 재할당은 불가능하므로 제거
+  let a = 1; // 초기값 설정
+  a++; // 1 증가
+
+  let b = 10; // 초기값 설정
+  b += 10; // 10 더하기
+
+  const c = 200; // 초기값 설정
+
   return { a, b, c };
 }
 module.exports = manageVariables;
