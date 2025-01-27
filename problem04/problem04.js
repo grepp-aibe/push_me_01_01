@@ -21,5 +21,6 @@ function logicOps(a, b) {
     notB: !b, // 🚨
     ternary: a || b ? a : b, // 🚨
   };
+  
 }
 module.exports = logicOps;
