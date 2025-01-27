@@ -11,14 +11,13 @@
 function manageVariables() {
   //뭔가 바뀜
   // a++; // 🚨
-  let a = 2;
+  let a = 1;
   a++;
   // b += 1; // 🚨
-  let b = 10;
+  let b = 19;
   // let b = 20; // 🚨
-  b = 20;
   b += 1;
-  const c = 100;
+  const c = 200;
   // c = 200; // 🚨
   return { a, b, c };
 }
