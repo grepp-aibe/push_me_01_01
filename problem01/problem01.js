@@ -11,9 +11,9 @@
 function manageVariables() {
   let a = 2;
   let b = 10;
-  b = 20; // 🚨
+  b = 20;
   let c = 100;
-  c = 200; // 🚨
+  c = 200;
   return { a, b, c };
 }
 module.exports = manageVariables;
