@@ -19,13 +19,14 @@ function inspectValues() {
   let b = null; // null
   let c = 42; // number
   let d = "hello"; // string
-
+  let f;
+  
   return {
-    typeofA: typeof b, // 🚨
-    typeofB: typeof d, // 🚨
-    typeofC: typeof a, // 🚨
-    typeofD: "null", // 🚨
-    checkNull: b === undefined, // 🚨
+    typeofA: typeof a, // 🚨
+    typeofB: typeof b, // 🚨
+    typeofC: typeof c, // 🚨
+    typeofD: typeof d, // 🚨
+    checkNull: f === undefined, // 🚨
   };
 }
 module.exports = inspectValues;
